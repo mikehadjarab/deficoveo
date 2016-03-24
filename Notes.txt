@@ -1,0 +1,10 @@
+Voici donc le démo!
+
+Je n'ai pas créé de filtres car je devais terminer en début d'après-midi étant donné que j'ai déplacé des rendez-vous afin de me rendre disponible pour fair le défi.  
+
+Le principe de filtres, comme je le vois aurait été assez simple comme par exemple une case à cocher pour les produits de moins de 10$ comme on le voit dans le texte explicatif du défi.  Par la suite, par javascript, si la case est cochée on ajoute à la requête le paramètre @tpprixnum%3C10.  Du moins c'est ainsi que je l'aurais fait.
+
+Je crois que l'essentiel est là et par soucis d'être actuel, il est responsive :)
+
+MH
+
