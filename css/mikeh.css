@@ -1,0 +1,85 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* elements */
+body{
+	margin: 0;
+	padding: 0;
+	font-size: 14px;
+	background-color:#fff7e6 !important;
+}
+
+*{
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;		
+}
+
+form{
+	display: inline;
+}
+
+header{
+	width: 90%;
+	margin: 0 auto;
+}
+
+input{
+	border-radius: 5px;
+	border: 2px solid #897446;	
+	box-shadow: 2px 2px 3px #4b3d1d;
+}
+
+input[type=text],
+input[type=button]{
+	height: 3em;
+	font-weight: bold;
+	color: #483a1c;	
+}
+
+/* ids  */
+#headerWrapper{
+	background-color: #897446; 		
+}
+
+#mainCntnr{
+	margin: 0 auto;	
+}
+
+#resultArea{
+	margin: 25px auto;	
+}
+
+#resultCntnr{
+	width: 90%;	
+}
+
+#searchTitle{
+	margin: 0;	
+	color: #c6ab70;
+	display: inline;
+}
+
+#searchTitle span{
+	font-size: .5em;	
+}
+
+/* classes */
+.responseElem>div{
+	background-color: #ffffff;	
+	border-radius: 5px;	
+	box-shadow: 2px 2px 3px #4b3d1d;
+	padding: 5px;
+	height: 350px;
+	margin: 0 2px 30px 2px;
+}
+
+.responseElem img{
+	display: block; 
+	clear: both;
+	margin: 0 auto;
+	height: 150px;	
+	margin-bottom: 10px;
+}
+
+.responseElem p{
+	font-size: .8em;	
+}
